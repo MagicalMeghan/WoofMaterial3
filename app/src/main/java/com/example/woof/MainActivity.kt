@@ -97,7 +97,12 @@ fun WoofApp() {
 fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
     var expanded by remember { mutableStateOf(false) }
     Card(
-//        elevation = CardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(
+            MaterialTheme.colorScheme.surface
+        ),
+        elevation = CardDefaults.cardElevation(
+            4.dp
+        ),
         modifier = modifier.padding(8.dp)
     ) {
         Column(

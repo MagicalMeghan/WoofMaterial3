@@ -20,26 +20,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.Color
-
-////updated colors from the material theme builder
-//val AppDarkColorScheme = darkColorScheme(
-//    background = Color(0xfff4fff6),
-//    surface = Color(0xfff4fff6),
-//    onSurface = Color(0xff002114),
-//    primary = Color(0xff00687b),
-//    onPrimary = Color(0xffffffff),
-//    secondary = Color(0xff285ea7)
-//)
-//
-//val AppLightColorScheme = lightColorScheme(
-//    background = Color(0xff002114),
-//    surface = Color(0xff002114),
-//    onSurface = Color(0xff8bf8c4),
-//    primary = Color(0xff57d6f6),
-//    onPrimary = Color(0xff003641),
-//    secondary = Color(0xffa9c7ff)
-//)
 
 private val AppDarkColorScheme = darkColorScheme(
     background = Cyan900,
